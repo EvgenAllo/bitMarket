@@ -1,133 +1,86 @@
 body {
     font-family: sans-serif;
-    background-color: black;
+    background-color:#F16D95;
 }
 
 header {
-    display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 15px;
+    padding:15px ;
     margin-bottom: 20px;
+     display: flex;
+     background-color: black;
 }
 
 .button {
-    background-color: #36bbce;
+    background-color:#FF9B73;
     color: black;
     text-decoration: none;
-    padding: 15px;
+    padding:15px ;
     font-size: 24px;
     border-radius: 10px;
-    display: block;
+
 }
 
 nav {
     border-top: 5px solid white;
     border-bottom: 5px solid white;
     padding: 25px 100px 25px 95px;
-    display: flex;
     justify-content: space-between;
+    display: flex;
 }
 
 .nav-link {
     font-size: 24px;
-    color: white;
+    color: black;
     text-decoration: none;
-    display: block;
+
 }
 
 h1 {
     text-align: center;
-    color: white;
+    color: black;
     font-size: 36px;
-    margin-top: 45px;
-    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-bottom:90px ;
 }
-h1::before{
-    content: url("https://mars.algoritmika.org/uploads/2021/03/Rectangle1_0_1616084234.svg");
-    height:1px;
-    width: 1px;
-    display: inline-block;
-    margin-right: 30px;
-}
-h1::after{
-    content: url("https://mars.algoritmika.org/uploads/2021/03/Rectangle1_0_1616084234.svg");
-    height:1px;
-    width: 1px;
-    display: inline-block;
-    margin-left: 10px;
-}
-.post-text {
+
+p {
     font-size: 24px;
 }
 
 .info {
-    display: flex;
     flex-wrap: wrap;
-    max-width: 1100px;
-    margin: 0 auto;
+    width: 1100px;
+    margin: 0px;
+    display: flex;
 }
 
-.post {
+article {
     background-color: white;
-    padding: 15px 45px 30px 45px;
+    padding:10px ;
     width: 400px;
-    margin: 20px;
-    position: relative;
+    margin:18px ;
 }
 
 .article-but {
     text-decoration: none;
-    background-color: #133aac;
-    color: white;
+    background-color:#8EF13C;
+    color: black;
     font-size: 24px;
     text-align: center;
     padding: 10px 75px 10px 75px;
-    display: block;
-}
-
-.full-image {
-    margin: 100px 0px 100px 0px;
-}
-
-.social {
-    display: block;
-    width: 30px;
-    margin-left: 50px;
 }
 
 footer {
-    background-color: white;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 30px 30px 20px 45px;
+    background-color:#D25FD2;
+    padding:30px ;
+    display: flex
 }
 
-.footer-text {
+footer a {
+    margin-right:38px ;
+}
+
+footer p {
     font-size: 24px;
-    margin-right: 30px;
-}
-
-.footer-text span {
-    color: #850AE5;
-    font-weight: bolder;
-}
-aside{
-    position: fixed;
-    right: 0px;
-    top: 230px ;
-    width: 150px;
-    background-color: rgb(222, 144, 241);
-    border: double white 5px;
-    border-radius: 15px;
-}
-.asidetext{
-    text-align: center;
-}
-.birka{
-    position: absolute;
-   display: inline-block;
-   top: 0px;
-   right: 10px;
 }
